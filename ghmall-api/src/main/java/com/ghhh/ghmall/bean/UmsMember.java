@@ -1,4 +1,4 @@
-package com.ghhh.ghmall.user.bean;
+package com.ghhh.ghmall.bean;
 
 import java.util.Date;
 

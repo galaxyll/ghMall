@@ -1,6 +1,6 @@
 package com.ghhh.ghmall.user.service.impl;
 
-import com.ghhh.ghmall.user.bean.UmsMember;
+import com.ghhh.ghmall.bean.UmsMember;
 import com.ghhh.ghmall.user.mapper.UserMapper;
 import com.ghhh.ghmall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

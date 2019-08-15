@@ -1,6 +1,7 @@
 package com.ghhh.ghmall.user.mapper;
 
-import com.ghhh.ghmall.user.bean.UmsMember;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghhh.ghmall.bean.UmsMember;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
@@ -12,7 +13,7 @@ import java.util.List;
  */
 @Mapper
 @Repository
-public interface UserMapper{
+public interface UserMapper extends BaseMapper<UmsMember> {
 
     /**
      * 读取数据库中普通用户数据装配成对象放置列表中返回

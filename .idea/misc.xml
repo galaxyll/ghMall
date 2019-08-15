@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/ghmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-user/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-api/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,6 +8,8 @@
 maven项目，分层结构
 
 ## 模块说明
+###ghmall-api
+提供所有外部接口
 
 ### ghmall-parent
 1. 管理所有依赖版本号

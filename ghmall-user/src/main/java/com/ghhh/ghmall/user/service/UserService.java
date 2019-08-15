@@ -1,6 +1,6 @@
 package com.ghhh.ghmall.user.service;
 
-import com.ghhh.ghmall.user.bean.UmsMember;
+import com.ghhh.ghmall.bean.UmsMember;
 
 import java.util.List;
 
