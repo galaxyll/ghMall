@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ghMall.iml" filepath="$PROJECT_DIR$/.idea/ghMall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ghmall-parent/ghmall-parent.iml" filepath="$PROJECT_DIR$/ghmall-parent/ghmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ghmall-user/ghmall-user.iml" filepath="$PROJECT_DIR$/ghmall-user/ghmall-user.iml" />
+    </modules>
+  </component>
+</project>
