@@ -1,7 +1,7 @@
 package com.ghhh.ghmall.user.controller;
 
 import com.ghhh.ghmall.bean.UmsMember;
-import com.ghhh.ghmall.user.service.UserService;
+import com.ghhh.ghmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

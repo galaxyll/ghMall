@@ -9,6 +9,10 @@
         <option value="$PROJECT_DIR$/ghmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-user/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-util/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-web-util/pom.xml" />
       </list>
     </option>
   </component>

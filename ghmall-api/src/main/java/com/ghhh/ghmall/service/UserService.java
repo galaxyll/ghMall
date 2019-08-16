@@ -1,4 +1,4 @@
-package com.ghhh.ghmall.user.service;
+package com.ghhh.ghmall.service;
 
 import com.ghhh.ghmall.bean.UmsMember;
 

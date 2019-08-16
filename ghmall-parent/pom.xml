@@ -29,6 +29,16 @@
         <dubbo.version>2.6.6</dubbo.version>
         <fastjson.version>1.2.59</fastjson.version>
         <mybatis-plus.version>3.1.2</mybatis-plus.version>
+        <beanUtils.version>1.8.3</beanUtils.version>
+        <httpclient.version>4.5.9</httpclient.version>
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <commons-codec.version>1.13</commons-codec.version>
+        <jdbc.version>2.1.7.RELEASE</jdbc.version>
+        <web.version>2.1.7.RELEASE</web.version>
+        <test.version>2.1.7.RELEASE</test.version>
+        <ghmall-util.version>1.0-SNAPSHOT</ghmall-util.version>
+        <thymeleaf.version>2.1.7.RELEASE</thymeleaf.version>
+        <redis.version>2.1.7.RELEASE</redis.version>
     </properties>
 
 
@@ -38,12 +48,12 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-jdbc</artifactId>
-                <version>2.1.7.RELEASE</version>
+                <version>${jdbc.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
-                <!--<version>2.1.7.RELEASE</version>-->
+                <version>${web.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
@@ -58,8 +68,8 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
-                <version>2.1.7.RELEASE</version>
-                <scope>test</scope>
+                <version>${test.version}</version>
+                <!--<scope>test</scope>-->
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -72,11 +82,48 @@
                 <version>${mybatis-plus.version}</version>
             </dependency>
 
+
             <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>dubbo</artifactId>
-                <version>${dubbo.version}</version>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${beanUtils.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ghhh.ghmall</groupId>
+                <artifactId>ghmall-common-util</artifactId>
+                <version>${ghmall-util.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ghhh.ghmall</groupId>
+                <artifactId>ghmall-service-util</artifactId>
+                <version>${ghmall-util.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                <version>${thymeleaf.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${redis.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

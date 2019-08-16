@@ -2,7 +2,7 @@ package com.ghhh.ghmall.user.service.impl;
 
 import com.ghhh.ghmall.bean.UmsMember;
 import com.ghhh.ghmall.user.mapper.UserMapper;
-import com.ghhh.ghmall.user.service.UserService;
+import com.ghhh.ghmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
