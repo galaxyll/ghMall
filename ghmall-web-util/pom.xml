@@ -20,10 +20,7 @@
             <groupId>com.ghhh.ghmall</groupId>
             <artifactId>ghmall-common-util</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
+
     </dependencies>
 
 </project>

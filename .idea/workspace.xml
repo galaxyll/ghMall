@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63778cf-9d4a-4a88-b79f-7ed6e62bd322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ghmall-common-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ghmall-service-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ghmall-web-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ghmall-user-service/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-common-util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ghmall-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ghmall-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-user-web/src/main/java/com/ghhh/ghmall/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-web-util/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ghmall-user/target/" />
     <ignored path="$PROJECT_DIR$/ghmall-parent/target/" />
@@ -21,6 +20,8 @@
     <ignored path="$PROJECT_DIR$/ghmallwebutil/target/" />
     <ignored path="$PROJECT_DIR$/ghmall-service-util/target/" />
     <ignored path="$PROJECT_DIR$/ghmall-web-util/target/" />
+    <ignored path="$PROJECT_DIR$/ghmall-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/ghmall-user-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,56 +63,95 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ghmall-parent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2373">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="-396">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ghmall-user/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ghmall-common-util/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="521">
+              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ghmall-service-util/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+            <state relative-caret-position="576">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/GhmallUserApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ghmall-user-web/src/main/java/com/ghhh/ghmall/user/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ghmall-common-util/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ghmall-user-web/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="310">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ghmall-web-util/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ghmall-user-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1116">
-                <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="-69">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -125,6 +165,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>api</find>
+      <find>alibaba</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -133,21 +179,27 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/89cfe53c-e24b-4bbb-8426-34f497cc0b37/console.sql" />
         <option value="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/bean/UmsMember.java" />
-        <option value="$PROJECT_DIR$/ghmall-user/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/ghmall-api/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/UserService.java" />
         <option value="$PROJECT_DIR$/ghmall-util/pom.xml" />
         <option value="$PROJECT_DIR$/ghmallwebutil/pom.xml" />
-        <option value="$PROJECT_DIR$/ghmall-user/pom.xml" />
-        <option value="$PROJECT_DIR$/ghmall-web-util/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/ghmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-user/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ghmall-user/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ghmall-user-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ghmall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ghmall-user-web/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -166,25 +218,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ghmall-web-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ghmall-web-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1902" />
-    <option name="y" value="120" />
-    <option name="width" value="1843" />
-    <option name="height" value="789" />
+    <option name="x" value="1366" />
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -201,6 +243,133 @@
               <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
               <item name="ghMall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-common-util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -209,19 +378,37 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565925844980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566036624529" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ghhh.ghmall.user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ghmall-user-service/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -254,11 +441,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GhmallUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ghmall-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghhh.ghmall.user.GhmallUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GhmallUserWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ghmall-user-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghhh.ghmall.user.GhmallUserWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GhmallUserApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -277,26 +481,30 @@
       <workItem from="1565914746910" duration="1891000" />
       <workItem from="1565918794753" duration="302000" />
       <workItem from="1565919133576" duration="5596000" />
-      <workItem from="1565926180957" duration="580000" />
+      <workItem from="1565926180957" duration="2036000" />
+      <workItem from="1566002447604" duration="1258000" />
+      <workItem from="1566003958768" duration="6735000" />
+      <workItem from="1566024436675" duration="6001000" />
+      <workItem from="1566034574160" duration="2096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42475000" />
+    <option name="totallyTimeSpent" value="60021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1433" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="2184" y="92" width="341" height="931" id="Project" order="0" visible="true" weight="0.18553285" />
+      <window_info content_ui="combo" x="2184" y="92" width="341" height="931" id="Project" order="0" weight="0.21976808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
-      <window_info id="Learn" order="7" />
+      <window_info id="Learn" order="7" weight="0.32965213" />
       <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="9" visible="true" weight="0.18608503" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32975295" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49946293" />
@@ -306,23 +514,26 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32975295" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.7411386" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5112782" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32975295" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.528464" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info active="true" anchor="bottom" id="Alibaba Cloud View" order="16" visible="true" weight="0.32975295" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.44360903" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958587" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.42352292" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2252899" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.2252899" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32965213" />
+      <window_info anchor="right" id="Alibaba Log Console" order="10" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -383,13 +594,6 @@
     <entry file="file://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus/3.1.2/mybatis-plus-3.1.2.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/GhmallUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://MAVEN/com.ghhh.ghmall:ghmall-parent:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -413,11 +617,6 @@
         <state relative-caret-position="363">
           <caret line="255" column="32" selection-start-line="255" selection-start-column="32" selection-end-line="255" selection-end-column="32" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134" />
       </provider>
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.7.RELEASE/spring-boot-starter-parent-2.1.7.RELEASE.pom">
@@ -534,35 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -578,34 +748,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ghmallwebutil/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-user/src/test/java/com/ghhh/ghmall/user/GhmallUserApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1116">
-            <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -618,22 +764,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-web-util/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="576">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-parent/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ghmall-user-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2373">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="1044">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="794">
+            <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-web/src/main/java/com/ghhh/ghmall/user/GhmallUserWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/GhmallUserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-web/src/main/java/com/ghhh/ghmall/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-common-util/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="521">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/java/com/ghhh/ghmall/user/GhmallUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-user-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
         </state>
       </provider>
     </entry>

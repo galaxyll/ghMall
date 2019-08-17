@@ -10,6 +10,8 @@
         <module name="ghmall-common-util" />
         <module name="ghmall-service-util" />
         <module name="ghmall-user" />
+        <module name="ghmall-user-service" />
+        <module name="ghmall-user-web" />
         <module name="ghmall-web-util" />
       </profile>
     </annotationProcessing>
@@ -19,6 +21,8 @@
       <module name="ghmall-parent" target="1.8" />
       <module name="ghmall-service-util" target="1.8" />
       <module name="ghmall-user" target="1.8" />
+      <module name="ghmall-user-service" target="1.8" />
+      <module name="ghmall-user-web" target="1.8" />
       <module name="ghmall-web-util" target="1.8" />
       <module name="ghmallwebutil" target="1.8" />
     </bytecodeTargetLevel>
@@ -29,6 +33,8 @@
       <module name="ghmall-parent" options="-parameters" />
       <module name="ghmall-service-util" options="-parameters" />
       <module name="ghmall-user" options="-parameters" />
+      <module name="ghmall-user-service" options="-parameters" />
+      <module name="ghmall-user-web" options="-parameters" />
       <module name="ghmall-web-util" options="-parameters" />
     </option>
   </component>

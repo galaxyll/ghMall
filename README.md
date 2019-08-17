@@ -37,8 +37,10 @@ maven项目，分层结构
 1. 功能：提供用户服务
 2. 端口号:8080
 3. url:user.ghmall.com
-4. 依赖(springboot默认以外)
+4. 依赖(springboot默认以外)<br>
+#### 结构
+ ghmall-user-service
+> 端口号:8070
 
-
-
-5.结构
+ ghmall-user-web
+> 端口号:8080
