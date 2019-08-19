@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author galaxy
  */
-public interface UserService {
+public interface UserService  {
 
     List<UmsMember> getAllUser();
 }

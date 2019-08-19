@@ -1,12 +1,13 @@
 package com.ghhh.ghmall.bean;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * @author galaxy
  * @date 19-8-13 - 下午4:32
  */
-public class UmsMember {
+public class UmsMember implements Serializable {
     private String id;
     private String memberLevelId;
     private String username;

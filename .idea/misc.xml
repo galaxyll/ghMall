@@ -15,6 +15,8 @@
         <option value="$PROJECT_DIR$/ghmall-web-util/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ghmall-manage-service/pom.xml" />
       </list>
     </option>
   </component>

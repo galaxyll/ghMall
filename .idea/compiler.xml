@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ghmall-api" />
         <module name="ghmall-common-util" />
+        <module name="ghmall-manage-service" />
+        <module name="ghmall-manage-web" />
         <module name="ghmall-service-util" />
         <module name="ghmall-user" />
         <module name="ghmall-user-service" />
@@ -18,6 +20,8 @@
     <bytecodeTargetLevel>
       <module name="ghmall-api" target="1.8" />
       <module name="ghmall-common-util" target="1.8" />
+      <module name="ghmall-manage-service" target="1.8" />
+      <module name="ghmall-manage-web" target="1.8" />
       <module name="ghmall-parent" target="1.8" />
       <module name="ghmall-service-util" target="1.8" />
       <module name="ghmall-user" target="1.8" />
@@ -30,6 +34,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ghmall-common-util" options="-parameters" />
+      <module name="ghmall-manage-service" options="-parameters" />
+      <module name="ghmall-manage-web" options="-parameters" />
       <module name="ghmall-parent" options="-parameters" />
       <module name="ghmall-service-util" options="-parameters" />
       <module name="ghmall-user" options="-parameters" />

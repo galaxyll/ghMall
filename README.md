@@ -22,6 +22,7 @@ maven项目，分层结构
 - web
 - test
 - fastjson
+- dubbo
 
 ### ghmall-service-util
 服务模块
@@ -44,3 +45,13 @@ maven项目，分层结构
 
  ghmall-user-web
 > 端口号:8080
+
+### ghmall-manage
+后台管理模块
+####　结构
+ ghmall-manage-web
+> 端口号:8081
+
+
+ ghmall-manage-service
+> 端口号:
