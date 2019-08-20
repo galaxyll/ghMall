@@ -7,6 +7,13 @@
     <groupId>com.ghhh.ghmall</groupId>
     <artifactId>ghmall-api</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>com.ghhh.ghmall</groupId>
+            <artifactId>ghmall-service-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

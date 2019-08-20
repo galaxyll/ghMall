@@ -1,6 +1,8 @@
 package com.ghhh.ghmall.bean;
 
 
+import com.baomidou.mybatisplus.annotation.TableField;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -13,7 +15,7 @@ public class PmsBaseCatalog2 implements Serializable {
     private String id;
     private String name;
     private String catalog1Id;
-
+    @TableField(exist = false)
     private List<PmsBaseCatalog3> catalog3List;
 
     public List<PmsBaseCatalog3> getCatalog3List() {

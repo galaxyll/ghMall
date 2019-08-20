@@ -1,6 +1,8 @@
 package com.ghhh.ghmall.bean;
 
-import java.beans.Transient;
+
+import com.baomidou.mybatisplus.annotation.TableField;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -11,15 +13,12 @@ import java.util.List;
 
 public class PmsBaseCatalog1 implements Serializable {
 
-    @Id
-    @Column
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private String id;
-    @Column
     private String name;
 
-    @Transient
-    private List<BaseCatalog2> catalog2s;
+    @TableField(exist = false)
+    private  List<PmsBaseCatalog2> catalog2s;
 
     public String getId() {
         return id;
