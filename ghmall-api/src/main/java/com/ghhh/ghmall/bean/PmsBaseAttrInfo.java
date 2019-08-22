@@ -2,13 +2,14 @@ package com.ghhh.ghmall.bean;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * @author galaxy
  * @date 19-8-20 - 下午10:18
  */
-public class PmsBaseAttrInfo {
+public class PmsBaseAttrInfo implements Serializable {
 
     private String id;
     private String attrName;
