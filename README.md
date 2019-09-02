@@ -1,6 +1,6 @@
 # ghMall
 ## SpringBoot-based web store,expect not only with springboot
-
+## 这是一个java语言写的网上商城
 ## 项目架构
 分布式<br>
 controller<-->(dubbo)<-->service+dao

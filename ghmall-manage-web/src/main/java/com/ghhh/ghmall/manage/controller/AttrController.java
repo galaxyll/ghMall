@@ -4,9 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.ghhh.ghmall.bean.PmsBaseAttrInfo;
 import com.ghhh.ghmall.service.AttrService;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -26,5 +24,11 @@ public class AttrController {
     public List<PmsBaseAttrInfo> getAttrInfo(String catalog3Id)
     {
         return attrService.getAttrInfo(catalog3Id);
+    }
+
+    @RequestMapping("/saveAttrInfo")
+    public void addAttrInfo(@RequestBody PmsBaseAttrInfo)
+    {
+
     }
 }
