@@ -2,6 +2,7 @@ package com.ghhh.ghmall.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.ghhh.ghmall.bean.PmsBaseAttrInfo;
+import com.ghhh.ghmall.bean.PmsBaseAttrValue;
 import com.ghhh.ghmall.manage.mapper.AttrMapper;
 import com.ghhh.ghmall.service.AttrService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,5 +22,16 @@ public class AttrServiceImpl implements AttrService {
     @Override
     public List<PmsBaseAttrInfo> getAttrInfo(String catalog3Id) {
         return attrMapper.selectAttrInfo(catalog3Id);
+    }
+
+    @Override
+    public String saveAttrInfo(PmsBaseAttrInfo pmsBaseAttrInfo) {
+
+        attrMapper.insertAttrInfo(pmsBaseAttrInfo);
+
+        for (PmsBaseAttrValue pmsBaseAttrValue:pmsBaseAttrInfo.getAttrValueList()){
+
+        }
+        return attrMapper.insertAttrInfo(pmsBaseAttrInfo);
     }
 }
