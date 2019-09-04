@@ -30,8 +30,10 @@ public class AttrServiceImpl implements AttrService {
         attrMapper.insertAttrInfo(pmsBaseAttrInfo);
 
         for (PmsBaseAttrValue pmsBaseAttrValue:pmsBaseAttrInfo.getAttrValueList()){
-
+            pmsBaseAttrValue.setAttrId(pmsBaseAttrInfo.getId());
+            attrMapper.insertAttrValue(pmsBaseAttrValue);
         }
-        return attrMapper.insertAttrInfo(pmsBaseAttrInfo);
+
+        return "success";
     }
 }

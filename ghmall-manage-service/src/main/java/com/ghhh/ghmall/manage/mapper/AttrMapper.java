@@ -5,6 +5,7 @@ import com.ghhh.ghmall.bean.PmsBaseAttrInfo;
 import com.ghhh.ghmall.bean.PmsBaseAttrValue;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -15,14 +16,17 @@ import java.util.List;
  */
 
 @Mapper
-public interface AttrMapper extends BaseMapper {
+public interface AttrMapper extends BaseMapper<PmsBaseAttrInfo> {
 
     @Select("select * from pms_base_attr_info where catalog3_id=#{catalog3Id}")
     List<PmsBaseAttrInfo> selectAttrInfo(String catalog3Id);
 
-    @Insert("insert into pms_base_attr_info(attr_name,catalog3_id) values(#{pmsBaseAttrInfo.attrName}," +
-            "#{pmsBaseAttrInfo.catalog3Id})")
-    String insertAttrInfo(PmsBaseAttrInfo pmsBaseAttrInfo);
+    @Options(useGeneratedKeys = true,keyProperty = "id")
+    @Insert("insert into pms_base_attr_info(attr_name,catalog3_id) values(#{attrName}," +
+            "#{catalog3Id})")
+    int insertAttrInfo(PmsBaseAttrInfo pmsBaseAttrInfo);
 
+    @Insert("insert into pms_base_attr_value(value_name,attr_id) values(#{valueName},#{attrId})")
+    void insertAttrValue(PmsBaseAttrValue pmsBaseAttrValue);
 
 }
