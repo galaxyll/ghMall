@@ -32,4 +32,11 @@ public class AttrController {
     {
         String status = attrService.saveAttrInfo(pmsBaseAttrInfo);
     }
+
+    @RequestMapping("/getAttrValueList")
+    @ResponseBody
+    public List<String> getAttrValueList(@RequestParam(name = "attrId") Integer attrId)
+    {
+        return attrService.getAttrValue(attrId);
+    }
 }

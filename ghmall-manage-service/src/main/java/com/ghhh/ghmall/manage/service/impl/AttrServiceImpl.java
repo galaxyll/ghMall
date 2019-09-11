@@ -36,4 +36,10 @@ public class AttrServiceImpl implements AttrService {
 
         return "success";
     }
+
+    @Override
+    public List<String> getAttrValue(Integer attrId) {
+
+       return attrMapper.selectAttrValue(attrId);
+    }
 }

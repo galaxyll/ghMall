@@ -29,4 +29,10 @@ public interface AttrMapper extends BaseMapper<PmsBaseAttrInfo> {
     @Insert("insert into pms_base_attr_value(value_name,attr_id) values(#{valueName},#{attrId})")
     void insertAttrValue(PmsBaseAttrValue pmsBaseAttrValue);
 
+    /**
+     * @param attrId 属性id 整型
+     * @return　属性值　字符串列表
+     */
+    @Select("select value_name from pms_base_attr_value where attr_id=#{attrId}")
+    List<String> selectAttrValue(Integer attrId);
 }
