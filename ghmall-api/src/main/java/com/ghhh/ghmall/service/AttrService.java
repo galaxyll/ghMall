@@ -1,6 +1,7 @@
 package com.ghhh.ghmall.service;
 
 import com.ghhh.ghmall.bean.PmsBaseAttrInfo;
+import com.ghhh.ghmall.bean.PmsBaseAttrValue;
 
 import java.util.List;
 
@@ -13,4 +14,12 @@ public interface AttrService {
     List<PmsBaseAttrInfo> getAttrInfo(String catalog3Id);
 
     String saveAttrInfo(PmsBaseAttrInfo pmsBaseAttrInfo);
+
+    /**
+     *
+     * @param attrId 属性id
+     * @return 属性id对应的value的列表
+     */
+    List<PmsBaseAttrValue> getAttrValue(Integer attrId);
+
 }

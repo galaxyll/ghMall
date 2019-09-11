@@ -2,6 +2,7 @@ package com.ghhh.ghmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.ghhh.ghmall.bean.PmsBaseAttrInfo;
+import com.ghhh.ghmall.bean.PmsBaseAttrValue;
 import com.ghhh.ghmall.service.AttrService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -35,7 +36,7 @@ public class AttrController {
 
     @RequestMapping("/getAttrValueList")
     @ResponseBody
-    public List<String> getAttrValueList(@RequestParam(name = "attrId") Integer attrId)
+    public List<PmsBaseAttrValue> getAttrValueList(@RequestParam(name = "attrId") Integer attrId)
     {
         return attrService.getAttrValue(attrId);
     }

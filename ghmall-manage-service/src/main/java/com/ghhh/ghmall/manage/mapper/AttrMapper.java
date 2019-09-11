@@ -33,6 +33,6 @@ public interface AttrMapper extends BaseMapper<PmsBaseAttrInfo> {
      * @param attrId 属性id 整型
      * @return　属性值　字符串列表
      */
-    @Select("select value_name from pms_base_attr_value where attr_id=#{attrId}")
-    List<String> selectAttrValue(Integer attrId);
+    @Select("select * from pms_base_attr_value where attr_id=#{attrId}")
+    List<PmsBaseAttrValue> selectAttrValue(Integer attrId);
 }

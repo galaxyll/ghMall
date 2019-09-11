@@ -38,7 +38,7 @@ public class AttrServiceImpl implements AttrService {
     }
 
     @Override
-    public List<String> getAttrValue(Integer attrId) {
+    public List<PmsBaseAttrValue> getAttrValue(Integer attrId) {
 
        return attrMapper.selectAttrValue(attrId);
     }
