@@ -2,6 +2,7 @@ package com.ghhh.ghmall.service;
 
 import com.ghhh.ghmall.bean.PmsBaseAttrInfo;
 import com.ghhh.ghmall.bean.PmsBaseAttrValue;
+import com.ghhh.ghmall.bean.PmsBaseSaleAttr;
 
 import java.util.List;
 
@@ -22,4 +23,5 @@ public interface AttrService {
      */
     List<PmsBaseAttrValue> getAttrValue(Integer attrId);
 
+    List<PmsBaseSaleAttr> baseSaleAttrList();
 }

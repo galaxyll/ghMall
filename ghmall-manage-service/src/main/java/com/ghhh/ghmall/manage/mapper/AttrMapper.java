@@ -3,6 +3,7 @@ package com.ghhh.ghmall.manage.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.ghhh.ghmall.bean.PmsBaseAttrInfo;
 import com.ghhh.ghmall.bean.PmsBaseAttrValue;
+import com.ghhh.ghmall.bean.PmsBaseSaleAttr;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
@@ -35,4 +36,7 @@ public interface AttrMapper extends BaseMapper<PmsBaseAttrInfo> {
      */
     @Select("select * from pms_base_attr_value where attr_id=#{attrId}")
     List<PmsBaseAttrValue> selectAttrValue(Integer attrId);
+
+    @Select("select * from pms_base_sale_attr")
+    List<PmsBaseSaleAttr> selectBaseSaleAttrList();
 }

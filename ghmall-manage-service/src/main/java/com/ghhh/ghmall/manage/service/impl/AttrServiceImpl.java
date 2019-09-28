@@ -3,6 +3,7 @@ package com.ghhh.ghmall.manage.service.impl;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.ghhh.ghmall.bean.PmsBaseAttrInfo;
 import com.ghhh.ghmall.bean.PmsBaseAttrValue;
+import com.ghhh.ghmall.bean.PmsBaseSaleAttr;
 import com.ghhh.ghmall.manage.mapper.AttrMapper;
 import com.ghhh.ghmall.service.AttrService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,5 +42,10 @@ public class AttrServiceImpl implements AttrService {
     public List<PmsBaseAttrValue> getAttrValue(Integer attrId) {
 
        return attrMapper.selectAttrValue(attrId);
+    }
+
+    @Override
+    public List<PmsBaseSaleAttr> baseSaleAttrList() {
+        return attrMapper.selectBaseSaleAttrList();
     }
 }

@@ -17,7 +17,7 @@ public class PmsProductInfo implements Serializable {
     private String catalog3Id;
 
     @TableField(exist = false)
-    private List<PmsProductSaleAttrInfo> pmsProductSaleAttrList;
+    private List<PmsProductSaleAttr> pmsProductSaleAttrList;
     @TableField(exist = false)
     private List<PmsProductImage> pmsProductImageList;
 
@@ -53,11 +53,11 @@ public class PmsProductInfo implements Serializable {
         this.catalog3Id = catalog3Id;
     }
 
-    public List<PmsProductSaleAttrInfo> getPmsProductSaleAttrList() {
+    public List<PmsProductSaleAttr> getPmsProductSaleAttrList() {
         return pmsProductSaleAttrList;
     }
 
-    public void setPmsProductSaleAttrList(List<PmsProductSaleAttrInfo> pmsProductSaleAttrList) {
+    public void setPmsProductSaleAttrList(List<PmsProductSaleAttr> pmsProductSaleAttrList) {
         this.pmsProductSaleAttrList = pmsProductSaleAttrList;
     }
 

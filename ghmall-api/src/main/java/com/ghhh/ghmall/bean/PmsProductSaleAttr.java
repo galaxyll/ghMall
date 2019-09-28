@@ -9,7 +9,7 @@ import java.util.List;
  * @author galaxy
  * @date 19-9-28 - 上午11:45
  */
-public class PmsProductSaleAttrInfo implements Serializable {
+public class PmsProductSaleAttr implements Serializable {
     private String id;
     private String productId;
     private String saleAttrInfoId;

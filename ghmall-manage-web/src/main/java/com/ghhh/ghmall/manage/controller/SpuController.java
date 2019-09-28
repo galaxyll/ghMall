@@ -1,6 +1,7 @@
 package com.ghhh.ghmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.ghhh.ghmall.bean.PmsBaseSaleAttr;
 import com.ghhh.ghmall.bean.PmsProductInfo;
 import com.ghhh.ghmall.service.SpuService;
 import org.springframework.stereotype.Controller;
@@ -28,5 +29,7 @@ public class SpuController {
     {
         return spuService.getSpuList(catalog3Id);
     }
+
+
 
 }
