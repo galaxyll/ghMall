@@ -16,7 +16,7 @@ public class PmsProductSaleAttr implements Serializable {
     private String saleAttrInfoName;
 
     @TableField(exist = false)
-    private List<PmsProductSaleAttrValue> pmsProductSaleAttrValueList;
+    private List<PmsProductSaleAttrValue> spuSaleAttrValueList;
 
     public String getId() {
         return id;
@@ -43,19 +43,19 @@ public class PmsProductSaleAttr implements Serializable {
     }
 
 
-    public List<PmsProductSaleAttrValue> getPmsProductSaleAttrValueList() {
-        return pmsProductSaleAttrValueList;
-    }
-
-    public void setPmsProductSaleAttrValueList(List<PmsProductSaleAttrValue> pmsProductSaleAttrValueList) {
-        this.pmsProductSaleAttrValueList = pmsProductSaleAttrValueList;
-    }
-
     public String getSaleAttrInfoName() {
         return saleAttrInfoName;
     }
 
     public void setSaleAttrInfoName(String saleAttrInfoName) {
         this.saleAttrInfoName = saleAttrInfoName;
+    }
+
+    public List<PmsProductSaleAttrValue> getSpuSaleAttrValueList() {
+        return spuSaleAttrValueList;
+    }
+
+    public void setSpuSaleAttrValueList(List<PmsProductSaleAttrValue> spuSaleAttrValueList) {
+        this.spuSaleAttrValueList = spuSaleAttrValueList;
     }
 }

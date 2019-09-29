@@ -5,10 +5,7 @@ import com.ghhh.ghmall.bean.PmsBaseSaleAttr;
 import com.ghhh.ghmall.bean.PmsProductInfo;
 import com.ghhh.ghmall.service.SpuService;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -30,6 +27,11 @@ public class SpuController {
         return spuService.getSpuList(catalog3Id);
     }
 
-
+    @ResponseBody
+    @RequestMapping("/saveSpuInfo")
+    public void saveSpuInfo(@RequestBody PmsProductInfo pmsProductInfo)
+    {
+        System.out.println(pmsProductInfo);
+    }
 
 }

@@ -12,14 +12,14 @@ import java.util.List;
  */
 public class PmsProductInfo implements Serializable {
     private String id;
-    private String productName;
+    private String spuName;
     private String description;
     private String catalog3Id;
 
     @TableField(exist = false)
-    private List<PmsProductSaleAttr> pmsProductSaleAttrList;
+    private List<PmsProductSaleAttr> spuSaleAttrList;
     @TableField(exist = false)
-    private List<PmsProductImage> pmsProductImageList;
+    private List<PmsProductImage> spuImageList;
 
     public String getId() {
         return id;
@@ -29,13 +29,6 @@ public class PmsProductInfo implements Serializable {
         this.id = id;
     }
 
-    public String getProductName() {
-        return productName;
-    }
-
-    public void setProductName(String productName) {
-        this.productName = productName;
-    }
 
     public String getDescription() {
         return description;
@@ -53,19 +46,39 @@ public class PmsProductInfo implements Serializable {
         this.catalog3Id = catalog3Id;
     }
 
-    public List<PmsProductSaleAttr> getPmsProductSaleAttrList() {
-        return pmsProductSaleAttrList;
+    public List<PmsProductSaleAttr> getSpuSaleAttrList() {
+        return spuSaleAttrList;
     }
 
-    public void setPmsProductSaleAttrList(List<PmsProductSaleAttr> pmsProductSaleAttrList) {
-        this.pmsProductSaleAttrList = pmsProductSaleAttrList;
+    public void setSpuSaleAttrList(List<PmsProductSaleAttr> spuSaleAttrList) {
+        this.spuSaleAttrList = spuSaleAttrList;
     }
 
-    public List<PmsProductImage> getPmsProductImageList() {
-        return pmsProductImageList;
+    public List<PmsProductImage> getSpuImageList() {
+        return spuImageList;
     }
 
-    public void setPmsProductImageList(List<PmsProductImage> pmsProductImageList) {
-        this.pmsProductImageList = pmsProductImageList;
+    public void setSpuImageList(List<PmsProductImage> spuImageList) {
+        this.spuImageList = spuImageList;
+    }
+
+    @Override
+    public String toString() {
+        return "PmsProductInfo{" +
+                "id='" + id + '\'' +
+                ", spuName='" + spuName + '\'' +
+                ", description='" + description + '\'' +
+                ", catalog3Id='" + catalog3Id + '\'' +
+                ", spuSaleAttrList=" + spuSaleAttrList +
+                ", spuImageList=" + spuImageList +
+                '}';
+    }
+
+    public String getSpuName() {
+        return spuName;
+    }
+
+    public void setSpuName(String spuName) {
+        this.spuName = spuName;
     }
 }
