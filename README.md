@@ -55,3 +55,9 @@ maven项目，分层结构
 
  ghmall-manage-service
 > 端口号:8071
+
+### 启动流程
+1. fasdfs
+2. nginx
+3. zookeeper
+4. 本项目
