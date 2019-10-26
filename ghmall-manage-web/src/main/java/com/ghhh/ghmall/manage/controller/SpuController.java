@@ -2,11 +2,14 @@ package com.ghhh.ghmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.ghhh.ghmall.bean.PmsProductInfo;
+import com.ghhh.ghmall.manage.util.FastDFSClientUtil;
 import com.ghhh.ghmall.service.SpuService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -19,6 +22,9 @@ public class SpuController {
 
     @Reference
     private SpuService spuService;
+
+    @Autowired
+    private FastDFSClientUtil fastDFSClientUtil;
 
     @ResponseBody
     @RequestMapping("/spuList")
@@ -36,9 +42,10 @@ public class SpuController {
 
     @RequestMapping("/fileUpload")
     @ResponseBody
-    public String saveMedia(@RequestParam("file") MultipartFile multipartFile)
-    {
-        return "https://img30.360buyimg.com/sku/jfs/t27322/82/1288462069/147660/2d0ce757/5bc57779Na5ca3268.jpg";
+    public String saveMedia(@RequestParam("file") MultipartFile multipartFile) throws IOException {
+        String fileUrl = fastDFSClientUtil.uploadFile(multipartFile);
+        System.out.println(fileUrl);
+        return fileUrl;
     }
 
 }

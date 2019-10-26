@@ -33,6 +33,7 @@ maven项目，分层结构
 - redis
 ### ghmall-web-util-->common-util
 前端模块
+- fastdfs
 
 ### ghmall-user
 1. 功能：提供用户服务
