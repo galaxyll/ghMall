@@ -43,4 +43,14 @@ public class PmsProductImage implements Serializable {
     public void setImgUrl(String imgUrl) {
         this.imgUrl = imgUrl;
     }
+
+    @Override
+    public String toString() {
+        return "PmsProductImage{" +
+                "id='" + id + '\'' +
+                ", productId='" + productId + '\'' +
+                ", imgName='" + imgName + '\'' +
+                ", imgUrl='" + imgUrl + '\'' +
+                '}';
+    }
 }

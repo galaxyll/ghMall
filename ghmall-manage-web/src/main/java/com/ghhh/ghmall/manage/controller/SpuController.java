@@ -1,7 +1,10 @@
 package com.ghhh.ghmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.ghhh.ghmall.bean.PmsBaseSaleAttr;
+import com.ghhh.ghmall.bean.PmsProductImage;
 import com.ghhh.ghmall.bean.PmsProductInfo;
+import com.ghhh.ghmall.bean.PmsProductSaleAttr;
 import com.ghhh.ghmall.manage.util.FastDFSClientUtil;
 import com.ghhh.ghmall.service.SpuService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +40,18 @@ public class SpuController {
     @RequestMapping("/saveSpuInfo")
     public void saveSpuInfo(@RequestBody PmsProductInfo pmsProductInfo)
     {
-        System.out.println(pmsProductInfo);
+        int productId = spuService.addProductInfo(pmsProductInfo);
+        for (PmsProductImage image:pmsProductInfo.getSpuImageList())
+        {
+            image.setProductId(String.valueOf(productId));
+            spuService.addProductImage(image);
+        }
+        for (PmsProductSaleAttr saleAttr:pmsProductInfo.getSpuSaleAttrList())
+        {
+            saleAttr.setProductId(String.valueOf(productId));
+            spuService.addProductSaleAttr(saleAttr);
+        }
+
     }
 
     @RequestMapping("/fileUpload")

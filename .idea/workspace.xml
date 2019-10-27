@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f63778cf-9d4a-4a88-b79f-7ed6e62bd322" name="Default Changelist" comment="" />
+    <list default="true" id="f63778cf-9d4a-4a88-b79f-7ed6e62bd322" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttr.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/SpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/SpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/SpuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/SpuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/service/impl/SpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/service/impl/SpuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/SpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/SpuController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/ghmall-user/target/" />
     <ignored path="$PROJECT_DIR$/ghmall-parent/target/" />
     <ignored path="$PROJECT_DIR$/ghmall-api/target/" />
@@ -47,30 +53,23 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="gh_mall: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="gh_mall@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="gh_mall: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="pms_product_sale_attr_value: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/CatalogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/SpuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="378">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +78,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ghmall-parent/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/SpuMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4176">
-              <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+            <state relative-caret-position="504">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="448">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,29 +163,29 @@
         <option value="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/GhmallManageServiceApplication.java" />
         <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsBaseAttrInfo.java" />
         <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsBaseAttrValue.java" />
-        <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/SpuService.java" />
-        <option value="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/service/impl/SpuServiceImpl.java" />
         <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductImage.java" />
         <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttrValue.java" />
-        <option value="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/SpuMapper.java" />
         <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttrInfo.java" />
         <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsBaseSaleAttr.java" />
         <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/AttrService.java" />
         <option value="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/service/impl/AttrServiceImpl.java" />
         <option value="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/AttrMapper.java" />
         <option value="$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/AttrController.java" />
-        <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttr.java" />
         <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductInfo.java" />
         <option value="$PROJECT_DIR$/ghmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-service-util/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ghmall-manage-web/src/test/java/com/ghhh/ghmall/manage/GhmallManageWebApplicationTests.java" />
         <option value="$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/conf/Fastdfs_config.java" />
         <option value="$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/conf/FastdfsConfig.java" />
         <option value="$PROJECT_DIR$/ghmall-web-util/pom.xml" />
         <option value="$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/util/FastDFSClientUtil.java" />
         <option value="$PROJECT_DIR$/ghmall-manage-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/SpuService.java" />
+        <option value="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/service/impl/SpuServiceImpl.java" />
         <option value="$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/SpuController.java" />
+        <option value="$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/SpuMapper.java" />
+        <option value="$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttr.java" />
       </list>
     </option>
   </component>
@@ -208,13 +222,102 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
               <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-manage-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ghMall" type="462c0819:PsiDirectoryNode" />
+              <item name="ghmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ghMall" type="b2602c69:ProjectViewProjectNode" />
@@ -288,6 +391,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -299,7 +403,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572098447151" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572189858094" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -436,12 +540,13 @@
       <workItem from="1569739529637" duration="9363000" />
       <workItem from="1570535685434" duration="2632000" />
       <workItem from="1571054327466" duration="2839000" />
-      <workItem from="1572074678740" duration="13861000" />
+      <workItem from="1572074678740" duration="14320000" />
+      <workItem from="1572169871211" duration="12767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191677000" />
+    <option name="totallyTimeSpent" value="204903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,9 +559,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1433" y="36" width="1853" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="2184" y="92" width="341" height="931" id="Project" order="0" visible="true" weight="0.22160356" />
+      <window_info content_ui="combo" x="2184" y="92" width="341" height="931" id="Project" order="0" visible="true" weight="0.22494432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -483,14 +587,14 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32882884" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="16" weight="0.32882884" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.7815315" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.8761261" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2493044" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.22494432" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.22438753" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.22438753" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32965213" />
@@ -588,18 +692,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-user-service/src/main/java/com/ghhh/ghmall/user/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
@@ -721,69 +813,12 @@
       </provider>
     </entry>
     <entry file="das://df13afc7-98d2-4d96-9a2c-f0a72cfcdcb9/schema/gh_mall/table/pms_comment" />
-    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/SpuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/service/impl/CatalogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/CatalogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/service/impl/SpuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -831,26 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/AttrMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/SpuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsBaseAttrInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -878,40 +893,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/CatalogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="462">
-            <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1071,9 +1052,10 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="8161.5838921539535" y="857.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="8162.0" y="858.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -1102,17 +1084,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/CatalogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_181/src.zip!/java/net/SocksSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="209" column="17" lean-forward="true" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4176">
+        <state relative-caret-position="728">
           <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductInfo.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-786">
+            <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/CatalogMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="523">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/AttrMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/service/impl/SpuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/service/SpuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1121,8 +1175,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ghmall-manage-web/src/main/java/com/ghhh/ghmall/manage/controller/SpuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="378">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-manage-service/src/main/java/com/ghhh/ghmall/manage/mapper/SpuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghmall-api/src/main/java/com/ghhh/ghmall/bean/PmsProductSaleAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
