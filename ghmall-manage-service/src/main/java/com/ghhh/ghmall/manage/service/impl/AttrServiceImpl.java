@@ -22,7 +22,13 @@ public class AttrServiceImpl implements AttrService {
 
     @Override
     public List<PmsBaseAttrInfo> getAttrInfo(String catalog3Id) {
-        return attrMapper.selectAttrInfo(catalog3Id);
+
+        List<PmsBaseAttrInfo> attrInfoList =  attrMapper.selectAttrInfo(catalog3Id);
+        for (PmsBaseAttrInfo info:attrInfoList)
+        {
+            info.setAttrValueList(attrMapper.selectAttrValue(Integer.valueOf(info.getId())));
+        }
+        return attrInfoList;
     }
 
     @Override
