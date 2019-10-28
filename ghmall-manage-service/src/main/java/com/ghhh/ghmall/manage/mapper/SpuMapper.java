@@ -3,6 +3,7 @@ package com.ghhh.ghmall.manage.mapper;
 import com.ghhh.ghmall.bean.PmsProductImage;
 import com.ghhh.ghmall.bean.PmsProductInfo;
 import com.ghhh.ghmall.bean.PmsProductSaleAttr;
+import com.ghhh.ghmall.bean.PmsProductSaleAttrValue;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
@@ -40,6 +41,6 @@ public interface SpuMapper {
     int insertProductInfo(PmsProductInfo pmsProductInfo);
 
     @Insert("insert into pms_product_sale_attr_value(product_id,sale_attr_id,sale_attr_value_name) values" +
-            "(#{productId},#{saleAttrInfoId},#{saleAttrInfoName})")
-    void insertProductSaleAttr(PmsProductSaleAttr saleAttr);
+            "(#{productId},#{saleAttrId},#{saleAttrValueName})")
+    void insertProductSaleAttrValue(PmsProductSaleAttrValue saleAttrValue);
 }

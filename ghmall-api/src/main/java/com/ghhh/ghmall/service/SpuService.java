@@ -2,7 +2,7 @@ package com.ghhh.ghmall.service;
 
 import com.ghhh.ghmall.bean.PmsProductImage;
 import com.ghhh.ghmall.bean.PmsProductInfo;
-import com.ghhh.ghmall.bean.PmsProductSaleAttr;
+import com.ghhh.ghmall.bean.PmsProductSaleAttrValue;
 
 import java.util.List;
 
@@ -22,5 +22,5 @@ public interface SpuService {
 
     int addProductInfo(PmsProductInfo pmsProductInfo);
 
-    void addProductSaleAttr(PmsProductSaleAttr saleAttr);
+    void addProductSaleAttrValue(PmsProductSaleAttrValue saleAttrValue);
 }

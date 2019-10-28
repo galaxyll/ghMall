@@ -12,8 +12,8 @@ import java.util.List;
 public class PmsProductSaleAttr implements Serializable {
     private String id;
     private String productId;
-    private String saleAttrInfoId;
-    private String saleAttrInfoName;
+    private String saleAttrId;
+    private String saleAttrName;
 
     @TableField(exist = false)
     private List<PmsProductSaleAttrValue> spuSaleAttrValueList;
@@ -34,21 +34,31 @@ public class PmsProductSaleAttr implements Serializable {
         this.productId = productId;
     }
 
-    public String getSaleAttrInfoId() {
-        return saleAttrInfoId;
+    @Override
+    public String toString() {
+        return "PmsProductSaleAttr{" +
+                "id='" + id + '\'' +
+                ", productId='" + productId + '\'' +
+                ", saleAttrId='" + saleAttrId + '\'' +
+                ", saleAttrName='" + saleAttrName + '\'' +
+                ", spuSaleAttrValueList=" + spuSaleAttrValueList +
+                '}';
     }
 
-    public void setSaleAttrInfoId(String saleAttrInfoId) {
-        this.saleAttrInfoId = saleAttrInfoId;
+    public String getSaleAttrId() {
+        return saleAttrId;
     }
 
-
-    public String getSaleAttrInfoName() {
-        return saleAttrInfoName;
+    public void setSaleAttrId(String saleAttrId) {
+        this.saleAttrId = saleAttrId;
     }
 
-    public void setSaleAttrInfoName(String saleAttrInfoName) {
-        this.saleAttrInfoName = saleAttrInfoName;
+    public String getSaleAttrName() {
+        return saleAttrName;
+    }
+
+    public void setSaleAttrName(String saleAttrName) {
+        this.saleAttrName = saleAttrName;
     }
 
     public List<PmsProductSaleAttrValue> getSpuSaleAttrValueList() {
@@ -59,14 +69,4 @@ public class PmsProductSaleAttr implements Serializable {
         this.spuSaleAttrValueList = spuSaleAttrValueList;
     }
 
-    @Override
-    public String toString() {
-        return "PmsProductSaleAttr{" +
-                "id='" + id + '\'' +
-                ", productId='" + productId + '\'' +
-                ", saleAttrInfoId='" + saleAttrInfoId + '\'' +
-                ", saleAttrInfoName='" + saleAttrInfoName + '\'' +
-                ", spuSaleAttrValueList=" + spuSaleAttrValueList +
-                '}';
-    }
 }

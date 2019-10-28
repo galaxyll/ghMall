@@ -57,4 +57,15 @@ public class PmsProductSaleAttrValue implements Serializable {
     public void setIsChecked(String isChecked) {
         this.isChecked = isChecked;
     }
+
+    @Override
+    public String toString() {
+        return "PmsProductSaleAttrValue{" +
+                "id='" + id + '\'' +
+                ", productId='" + productId + '\'' +
+                ", saleAttrId='" + saleAttrId + '\'' +
+                ", saleAttrValueName='" + saleAttrValueName + '\'' +
+                ", isChecked='" + isChecked + '\'' +
+                '}';
+    }
 }
