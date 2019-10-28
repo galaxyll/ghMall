@@ -25,7 +25,8 @@ public interface SpuMapper {
      * @param catalog3Id 商品三级分类id
      * @return 该分类下所有商品的spu
      */
-    @Select("select * from pms_product_info where catalog3_id=#{catalog3Id}")
+    @Select("select id,product_name as spu_name,description,catalog3_id from pms_product_info where " +
+            "catalog3_id=#{catalog3Id}")
     List<PmsProductInfo> selectSpuList(String catalog3Id);
 
     /**
