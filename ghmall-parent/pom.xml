@@ -30,7 +30,7 @@
         <fastjson.version>1.2.59</fastjson.version>
         <mybatis-plus.version>3.1.2</mybatis-plus.version>
         <beanUtils.version>1.8.3</beanUtils.version>
-        <httpclient.version>4.5.9</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <commons-codec.version>1.13</commons-codec.version>
         <jdbc.version>2.1.7.RELEASE</jdbc.version>
