@@ -34,7 +34,7 @@
         <commons-lang3.version>3.9</commons-lang3.version>
         <commons-codec.version>1.13</commons-codec.version>
         <jdbc.version>2.1.7.RELEASE</jdbc.version>
-        <web.version>2.1.7.RELEASE</web.version>
+        <web.version>2.5.12</web.version>
         <test.version>2.1.7.RELEASE</test.version>
         <ghmall-util.version>1.0-SNAPSHOT</ghmall-util.version>
         <thymeleaf.version>2.1.7.RELEASE</thymeleaf.version>
